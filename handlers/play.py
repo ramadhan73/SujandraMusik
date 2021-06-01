@@ -94,8 +94,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="Channel Bucin",
-                        url="https://t.me/Kutipankataaa")
+                        text="Channel",
+                        url="https://t.me/calonpenyanyi")
                 ],[
                     InlineKeyboardButton("Close",'cls') 
                    
@@ -114,7 +114,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/c364d2f8144c33bd301d5.jpg"
+        thumb_name = "https://telegra.ph/file/21ec80cbf299df8c55c34.jpg" 
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -122,8 +122,8 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Channel Info",
-                            url=f"https://t.me/AkuUserBot")
+                            text="Channel",
+                            url=f"https://t.me/calonpenyanyi")
 
                     ]
                 ]
@@ -151,23 +151,23 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Follow Instagram 🌻",
-                                url=f"https://instagram.com/hendraputraaaaaa")
+                                text="owner",
+                                url=f"https://t.me/gksukaribett")
 
                         ]
                     ]
                 )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/c364d2f8144c33bd301d5.jpg"
+            thumb_name = "https://telegra.ph/file/21ec80cbf299df8c55c34.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                text="Support Group",
-                                url=f"https://t.me/VcgSupportGroup")
+                                text="Support group",
+                                url=f"https://t.me/wavyheartt")
 
                         ]
                     ]
@@ -213,8 +213,8 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Follow Instagram 🌻",
-                            url=f"https://instagram.com/hendraputraaaaaa")
+                            text="owner",
+                            url=f"https://t.me/gksukaribett")
 
                     ]
                 ]
