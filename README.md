@@ -1,4 +1,4 @@
-<h2 align="centre">SUJANDRA MUSIK</h2>
+<h2 align="centre">Rams music</h2>
 
 ### A bot that can play music on telegram group's voice call
 
@@ -28,7 +28,7 @@
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ependelope53/SujandraMusik)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ramadhan73/SujandraMusik)
 
 Use [Repl Link](https://replit.com/@SpEcHiDe/GenerateStringSession) to get pyrogram string session
 
