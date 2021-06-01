@@ -7,11 +7,11 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_sticker("CAADBQADKAIAAmQgIVd2e584kTrkUgI")
+    await message.reply_sticker
     await message.reply_text(
-        f"""Hai 👋🏻, I am Sujandra 🎵
+        f"""Hai 👋🏻, I am Rams music 🎼
 
-I can play music in your group's voice call. Developed by [Hendra](https://t.me/IamYourEnemy).
+I can play music in your group's voice call. Developed by [rama](https://t.me/gksukaribett).
 
 Add me to your group and play music freely!
         """,
@@ -19,17 +19,17 @@ Add me to your group and play music freely!
             [
                 [
                     InlineKeyboardButton(
-                        "🎛 Commands", url="https://telegra.ph/Sujandra-Musik-04-24")
+                        "🎛 Commands", url="https://telegra.ph/PANDUAN-RAMS-MUSIC-BOT-06-01")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/VcgSupportGroup"
+                        "💬 Group", url="https://t.me/wavyheartt"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Kutipankataaa"
+                        "🔊 Channel", url="https://t.me/calonpenyanyi"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "🎁 Donasi", url="https://t.me/IamYourEnemy"
+                        "📌 Owner", url="https://t.me/gksukaribett"
                     )]
             ]
         ),
@@ -38,12 +38,12 @@ Add me to your group and play music freely!
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**Sujandra Music Player Online ✅**""",
+      await message.reply_text("""**Rams music Player Online ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Support Channel 🌻", url="https://t.me/AkuUserBot")
+                        "Support Channel 🌻", url="https://t.me/calonpenyanyi")
                 ]
             ]
         )
