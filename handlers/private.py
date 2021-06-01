@@ -29,7 +29,7 @@ Add me to your group and play music freely!
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "🎁 Donasi", url="https://t.me/gksukaribett"
+                        "📌 Owner", url="https://t.me/gksukaribett"
                     )]
             ]
         ),
